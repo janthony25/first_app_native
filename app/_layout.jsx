@@ -11,12 +11,12 @@ const RootLayout = () => {
     <View style={{ flex: 1 }}>
       <Slot />
 
-      <View style={[styles.footer, { backgroundColor: theme.background }]}>
+      {/* <View style={[styles.footer, { backgroundColor: theme.background }]}>
         <Link href="/">
           {" "}
           <Ionicons name="home" size={30} color="#00BFFF" />
         </Link>
-      </View>
+      </View> */}
     </View>
   );
 };
